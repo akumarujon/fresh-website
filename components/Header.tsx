@@ -13,7 +13,13 @@ export default function Header() {
         <div class="flex items-center flex-1">
           <LemonIcon aria-hidden="true" />
           <div class="text-2xl ml-1 font-bold">
-            Home
+            <a
+              style={{ listStyleType: "none" }}
+              href="/"
+              class={"hover:text-gray-700 py-1 border-gray-500 font-bold border-b-2"}
+            >
+              Home
+            </a>
           </div>
         </div>
         <ul class="flex items-center gap-6">
