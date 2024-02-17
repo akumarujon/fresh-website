@@ -30,7 +30,8 @@
     "tailwindcss/": "npm:/tailwindcss@3.3.5/",
     "tailwindcss/plugin": "npm:/tailwindcss@3.3.5/plugin.js",
     "$std/": "https://deno.land/std@0.211.0/",
-    "@components/": "./components/"
+    "@components/": "./components/",
+    "@css/": "./css/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",
