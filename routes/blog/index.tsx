@@ -21,7 +21,6 @@ export default function (props: PageProps) {
 
   return (
     <>
-      <Header></Header>
       <div className={"mx-auto w-3/4"}>
         <h1>Blogs</h1>
 

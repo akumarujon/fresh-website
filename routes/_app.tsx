@@ -1,4 +1,6 @@
 import { type PageProps } from "$fresh/server.ts";
+import Header from "@components/Header.tsx";
+
 export default function App({ Component }: PageProps) {
   return (
     <html lang={"en"}>
@@ -24,6 +26,7 @@ export default function App({ Component }: PageProps) {
         <link rel="canonical" href="https://akumarujon.uz" />
       </head>
       <body>
+        <Header />
         <Component />
       </body>
     </html>

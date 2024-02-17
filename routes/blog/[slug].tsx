@@ -20,7 +20,6 @@ export default function Page(props: PageProps) {
 
   return (
     <>
-      <Header></Header>
       <div className={"mx-auto w-3/4"}>
         <h1>
           {(slug.charAt(0).toUpperCase() + slug.slice(1)).replaceAll("-", " ")}
