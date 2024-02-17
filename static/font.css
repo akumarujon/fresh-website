@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.fredoka {
+    font-family: 'Fredoka', sans-serif;
+}
+ 
+/* Paragraph */
+p {
+    font-size: 20px; /* Slightly larger than the previous size */
+    font-weight: normal; /* Normal font weight */
+}
+
+/* Headings */
+h1 {
+    font-size: 3em; /* 48px */
+}
+h2 {
+    font-size: 2.5em; /* 40px */
+}
+h3 {
+    font-size: 2em; /* 32px */
+}
+h4 {
+    font-size: 1.6em; /* 25.6px */
+}
+h5 {
+    font-size: 1.3em; /* 20.8px */
+}
+h6 {
+    font-size: 1.1em; /* 17.6px */
+}
+
+/* List Items */
+li {
+    font-size: 1.2em; /* 19.2px */
+    font-weight: normal; /* Normal font weight */
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    font-weight: 500 !important;
+}
