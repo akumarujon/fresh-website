@@ -2,7 +2,6 @@ import IconBrandAmongUs from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/bra
 
 export default function Header() {
   const menus = [
-    { name: "About", href: "/about" },
     { name: "Projects", href: "/projects" },
     { name: "Blog", href: "/blog" },
   ];
