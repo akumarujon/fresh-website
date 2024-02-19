@@ -28,12 +28,6 @@ export default function App({ Component }: PageProps) {
       <body>
         <Header />
         <Component />
-
-        <script
-          type="module"
-          src="/dark.js"
-        >
-        </script>
       </body>
     </html>
   );
