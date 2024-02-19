@@ -31,7 +31,7 @@ export default function App({ Component }: PageProps) {
 
         <script
           type="module"
-          src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js"
+          src="/dark.js"
         >
         </script>
       </body>
