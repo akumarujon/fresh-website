@@ -28,6 +28,12 @@ export default function App({ Component }: PageProps) {
       <body>
         <Header />
         <Component />
+
+        <script
+          type="module"
+          src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js"
+        >
+        </script>
       </body>
     </html>
   );
