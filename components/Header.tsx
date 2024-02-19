@@ -1,4 +1,4 @@
-import LemonIcon from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/lemon-2.tsx";
+import IconBrandAmongUs from "https://deno.land/x/tabler_icons_tsx@0.0.5/tsx/brand-among-us.tsx";
 
 export default function Header() {
   const menus = [
@@ -8,10 +8,10 @@ export default function Header() {
   ];
 
   return (
-    <div class="bg-cyan-100 py-6 px-8 ">
+    <div class="bg-[#86efac] py-6 px-8 ">
       <div className={"mx-auto w-4/5 flex flex-col md:flex-row gap-4"}>
         <div class="flex items-center flex-1">
-          <LemonIcon aria-hidden="true" />
+          <IconBrandAmongUs aria-hidden="true" />
           <div class="text-2xl ml-1 font-bold">
             <a
               style={{ listStyleType: "none" }}
