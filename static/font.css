@@ -3,39 +3,99 @@
 .fredoka {
     font-family: 'Fredoka', sans-serif;
 }
- 
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("./ttf/MinecraftiaRegular.ttf");
+}
+
+body{
+    height: 100vh;
+}
+
+.Minecraft {
+    font-family: "Minecraft";
+    font-weight: 300;
+    color: white;
+
+}
+
+@media (min-width: 767px) {
+    .background {
+        background-image: url("./bck.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+  }
+  
+  /* Media query for phones */
+  @media (max-width: 767px) {
+   body{
+    color: #663606 !important;
+   }
+    .background {
+        background-image: url("./phone.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+  }
+
+
 /* Paragraph */
 p {
-    font-size: 1.5rem; /* Slightly larger than the previous size */
-    font-weight: normal; /* Normal font weight */
+    font-size: 1.5rem;
+    /* Slightly larger than the previous size */
+    font-weight: normal;
+    /* Normal font weight */
 }
 
 /* Headings */
 h1 {
-    font-size: 3em; /* 48px */
+    font-size: 3em;
+    /* 48px */
 }
+
 h2 {
-    font-size: 2.5em; /* 40px */
+    font-size: 2.5em;
+    /* 40px */
 }
+
 h3 {
-    font-size: 2em; /* 32px */
+    font-size: 2em;
+    /* 32px */
 }
+
 h4 {
-    font-size: 1.6em; /* 25.6px */
+    font-size: 1.6em;
+    /* 25.6px */
 }
+
 h5 {
-    font-size: 1.3em; /* 20.8px */
+    font-size: 1.3em;
+    /* 20.8px */
 }
+
 h6 {
-    font-size: 1.1em; /* 17.6px */
+    font-size: 1.1em;
+    /* 17.6px */
 }
 
 /* List Items */
 li {
-    font-size: 1.5rem; /* 19.2px */
-    font-weight: normal; /* Normal font weight */
+    font-size: 1.5rem;
+    /* 19.2px */
+    font-weight: normal;
+    /* Normal font weight */
 }
 
-h1, h2, h3, h4, h5, h6, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
     font-weight: 500 !important;
 }
