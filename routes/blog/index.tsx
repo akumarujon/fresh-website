@@ -1,4 +1,3 @@
-import Header from "@components/Header.tsx";
 import { Handlers, PageProps } from "$fresh/server.ts";
 
 export const handler: Handlers = {

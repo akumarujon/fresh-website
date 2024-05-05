@@ -1,7 +1,6 @@
 import { PageProps } from "$fresh/server.ts";
 import { Handlers } from "$fresh/server.ts";
 import { render } from "https://deno.land/x/gfm@0.6.0/mod.ts";
-import Header from "@components/Header.tsx";
 
 export const handler: Handlers = {
   async GET(req: Request, ctx) {
