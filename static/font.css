@@ -22,7 +22,7 @@ body{
 
 @media (min-width: 767px) {
     .background {
-        background-image: url("./bck.jpg");
+        background-image: url("./backgrounds/bck.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -35,7 +35,7 @@ body{
     color: #663606 !important;
    }
     .background {
-        background-image: url("./phone.jpg");
+        background-image: url("./backgrounds/phone.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
