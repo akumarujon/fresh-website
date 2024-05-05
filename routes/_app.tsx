@@ -25,8 +25,8 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/font.css" />
         <link rel="canonical" href="https://akumarujon.uz" />
       </head>
-      <body>
-        <Header />
+      <body className={"Minecraft background"}>
+        {/* <Header /> */}
         <Component />
       </body>
     </html>
